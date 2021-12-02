@@ -1,3 +1,3 @@
 import horovod.torch as hvd
 hvd.init()
-print('hello', hvd.rank(), hvd.size(), 'go')
+print('hello world', hvd.rank(), hvd.size(), 'go')
